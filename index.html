@@ -17,7 +17,7 @@
   <body>
     <header>
       <div class="container">
-        <div class="side-nav">
+        <div class="side-nav" id="sideNav">
           <i class="fas fa-close closeBtn"></i>
           <ul class="menu">
             <li><a href="#">Collections</a></li>
@@ -28,7 +28,7 @@
           </ul>
         </div>
         <a class="nav-bars">
-          <i class="fa-solid fa-bars-staggered"></i>
+          <i class="fa-solid fa-bars-staggered" id="menuBars"></i>
         </a>
         <h1 class="logo">sneakers</h1>
         <div class="navigations">
@@ -40,7 +40,35 @@
             <li><a href="#">Contact</a></li>
           </nav>
           <ul class="icons">
-            <li><img src="imgs/icon-cart.svg" /></li>
+            <li class="cartLi">
+              <img class="cart" src="imgs//icon-cart.svg" alt="" />
+              <div class="num disabled"></div>
+              <div class="cart-box disabled">
+                <h3>Cart</h3>
+                <ul class="cart-box-prods">
+                  <!-- <li><p>Your cart is empty!</p></li> -->
+                  <!-- <li>
+                    <img src="imgs/image-product-1-thumbnail.jpg" alt="" />
+                    <div>
+                      <h4>Fall Limited Edition Sneakers</h4>
+                      <p>$125.00 x 3 <span>$375.00</span></p>
+                    </div>
+                    <i class="fas fa-trash-alt"></i>
+                  </li>
+                  <li>
+                    <img src="imgs/image-product-1-thumbnail.jpg" alt="" />
+                    <div>
+                      <h4>Fall Limited Edition Sneakers</h4>
+                      <p>$125.00 x 3 <span>$375.00</span></p>
+                    </div>
+                    <i class="fas fa-trash-alt"></i>
+                  </li>
+                  <li class="checkout">
+                    <button>Checkout</button>
+                  </li> -->
+                </ul>
+              </div>
+            </li>
             <li><img src="imgs/avatar.png" class="avi" /></li>
           </ul>
         </div>

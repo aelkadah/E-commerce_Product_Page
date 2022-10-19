@@ -19,7 +19,7 @@
       <div class="container">
         <div class="side-nav" id="sideNav">
           <i class="fas fa-close closeBtn"></i>
-          <ul class="menu">
+          <ul class="menu" id="menu">
             <li><a href="#">Collections</a></li>
             <li><a href="#">Men</a></li>
             <li><a href="#">Women</a></li>
@@ -45,9 +45,7 @@
               <div class="num" id="cartNum"></div>
               <div class="cart-box disabled" id="boxUl">
                 <h3>Cart</h3>
-                <ul class="cart-box-prods">
-                  <li></li>
-                </ul>
+                <ul class="cart-box-prods"></ul>
               </div>
             </li>
             <li><img src="imgs/avatar.png" class="avi" /></li>
@@ -58,20 +56,46 @@
     <section class="product">
       <div class="container">
         <div class="imgs-side">
-          <div class="selected-img">
-            <!-- <div class="arrows">
-              <i class="fas fa-angle-left"></i>
-              <i class="fas fa-angle-right"></i>
-            </div> -->
-            <img src="imgs/product-1.jpg" alt="" />
+          <div class="img-display">
+            <div class="img-showcase">
+              <img src="imgs/product-1.jpg" alt="product image" />
+              <img src="imgs/product-2.jpg" alt="product image" />
+              <img src="imgs/product-3.jpg" alt="product image" />
+              <img src="imgs/product-4.jpg" alt="product image" />
+            </div>
+            <div class="arrows">
+              <a href="#" class="left-arrow">
+                <i class="fas fa-angle-left"></i>
+              </a>
+              <a href="#" class="right-arrow">
+                <i class="fas fa-angle-right"></i>
+              </a>
+            </div>
           </div>
-          <div class="imgs-nav">
-            <img class="active" src="imgs/product-1-thumbnail.jpg" alt="" />
-            <img src="imgs/product-2-thumbnail.jpg" alt="" />
-            <img src="imgs/product-3-thumbnail.jpg" alt="" />
-            <img src="imgs/product-4-thumbnail.jpg" alt="" />
+          <div class="img-select">
+            <div class="img-item">
+              <a href="#" data-id="1">
+                <img src="imgs/product-1-thumbnail.jpg" alt="product image" />
+              </a>
+            </div>
+            <div class="img-item">
+              <a href="#" data-id="2">
+                <img src="imgs/product-2-thumbnail.jpg" alt="product image" />
+              </a>
+            </div>
+            <div class="img-item">
+              <a href="#" data-id="3">
+                <img src="imgs/product-3-thumbnail.jpg" alt="product image" />
+              </a>
+            </div>
+            <div class="img-item">
+              <a href="#" data-id="4">
+                <img src="imgs/product-4-thumbnail.jpg" alt="product image" />
+              </a>
+            </div>
           </div>
         </div>
+
         <div class="content-side">
           <div class="cont">
             <h5>Sneaker company</h5>
